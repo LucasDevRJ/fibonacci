@@ -1,5 +1,7 @@
+let campoNumero = document.getElementById("numero");
+let respostaSequenciaFibonacci = document.getElementById("resposta");
+
 function calculaSequenciaFibonacci() {
-    let campoNumero = document.getElementById("numero");
     let numero = campoNumero.value;
     
     let fibonacci = numero;
@@ -10,10 +12,12 @@ function calculaSequenciaFibonacci() {
 }
 
 function exibeRespostaSequenciaFibonacci(numero, fibonacci) {
-    let respostaSequenciaFibonacci = document.getElementById("resposta");
-
     respostaSequenciaFibonacci.textContent = numero + "! = " + fibonacci;
 }
 
-let botao = document.getElementById("botaoCalcular");
-botao.onclick = calculaSequenciaFibonacci;
+function apagaRespostaSequenciaFibonacci() {
+    respostaSequenciaFibonacci.textContent = "";
+}
+
+let botaoCalcular = document.getElementById("botaoCalcular");
+botaoCalcular.onclick = calculaSequenciaFibonacci;

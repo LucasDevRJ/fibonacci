@@ -9,6 +9,8 @@
 
     --espacamento-externo: 1.25rem;
 
+    --espacamento-interno-entrada: 0.5rem 0.75rem;
+
     --espacamento-interno-botoes: 0 0.625rem;
 }
 
@@ -32,6 +34,7 @@
 .principal__sequencia__fibonacci__entrada {
     font-family: var(--fonte-entrada);
     font-size: var(--fonte-tamanho-entrada);
+    padding: var(--espacamento-interno-entrada);
 }
 
 .principal__sequencia__fibonacci__botoes {

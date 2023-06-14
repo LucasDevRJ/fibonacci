@@ -2,19 +2,20 @@ function calculaSequenciaFibonacci() {
     let campoNumero = document.getElementById("numero");
     let numero = campoNumero.value;
     
+    let fibonacci = numero;
     for (let i = numero - 1; i >= 1; i--) {
-        numero = numero * i;
+        fibonacci = fibonacci * i;
     }
-    exibeRespostaSequenciaFibonacci(numero);
+    exibeRespostaSequenciaFibonacci(numero, fibonacci);
 }
 
-function exibeRespostaSequenciaFibonacci(numero) {
+function exibeRespostaSequenciaFibonacci(numero, fibonacci) {
     let secao = document.querySelector("section");
 
     let p = document.createElement("p");
-    let fibonacci = document.createTextNode(numero);
-    p.appendChild(fibonacci);
-
+    let resposta = document.createTextNode(numero + "! = " + fibonacci);
+    
+    p.appendChild(resposta);
     secao.appendChild(p);
 }
 

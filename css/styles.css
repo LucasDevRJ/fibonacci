@@ -5,6 +5,7 @@
 
     --fonte-tamanho-titulo: 2.5rem;
     --fonte-tamanho-texto: 1.25rem;
+    --fonte-tamanho-entrada: 1rem;
 
     --espacamento-externo: 1.25rem;
 
@@ -30,6 +31,7 @@
 
 .principal__sequencia__fibonacci__entrada {
     font-family: var(--fonte-entrada);
+    font-size: var(--fonte-tamanho-entrada);
 }
 
 .principal__sequencia__fibonacci__botoes {

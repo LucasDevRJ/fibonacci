@@ -3,3 +3,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+.principal__sequencia__fibonacci__botoes {
+    display: flex;
+    gap: 0 10px;
+    margin-top: 20px;
+}

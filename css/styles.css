@@ -1,0 +1,5 @@
+.principal__sequencia__fibonacci {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

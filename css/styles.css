@@ -4,6 +4,7 @@
     --fonte-entrada: georgia, serif;
 
     --fonte-tamanho-titulo: 2.5rem;
+    --fonte-tamanho-texto: 1.25rem;
 
     --espacamento-externo: 1.25rem;
 
@@ -24,6 +25,7 @@
 .principal__sequencia__fibonacci__texto {
     margin-bottom: var(--espacamento-externo);
     font-family: var(--fonte-texto);
+    font-size: var(--fonte-tamanho-texto);
 }
 
 .principal__sequencia__fibonacci__entrada {

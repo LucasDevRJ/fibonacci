@@ -31,3 +31,7 @@
 .principal__sequencia__fibonacci__resposta {
     display: none;
 }
+
+.principal__sequencia__fibonacci__imagem {
+    width: 30%;
+}

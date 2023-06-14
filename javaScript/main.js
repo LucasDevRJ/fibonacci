@@ -10,13 +10,7 @@ function calculaSequenciaFibonacci() {
 }
 
 function exibeRespostaSequenciaFibonacci(numero, fibonacci) {
-    let secao = document.querySelector("section");
-
-    let p = document.createElement("p");
-    let resposta = document.createTextNode(numero + "! = " + fibonacci);
     
-    p.appendChild(resposta);
-    secao.appendChild(p);
 }
 
 let botao = document.getElementById("botao");

@@ -4,6 +4,15 @@
     align-items: center;
 }
 
+.principal__sequencia__fibonacci__titulo {
+    font-family: Tahoma, sans-serif;
+}
+
+.principal__sequencia__fibonacci__texto {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
 .principal__sequencia__fibonacci__botoes {
     display: flex;
     gap: 0 10px;

@@ -4,7 +4,9 @@ let respostaSequenciaFibonacci = document.getElementById("resposta");
 function calculaSequenciaFibonacci() {
     let numero = campoNumero.value;
 
-    if (isNaN(numero)) {
+    if (numero.length == 0) {
+        respostaSequenciaFibonacci.textContent = "Digite algum número positivo!";
+    } else if (isNaN(numero)) {
         respostaSequenciaFibonacci.textContent = "Digite somente números!";
     } else if (numero < 0) {
         respostaSequenciaFibonacci.textContent = "Digite somente números positivos!";

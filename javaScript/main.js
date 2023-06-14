@@ -2,6 +2,7 @@ let campoNumero = document.getElementById("numero");
 let respostaSequenciaFibonacci = document.getElementById("resposta");
 
 function calculaSequenciaFibonacci() {
+    respostaSequenciaFibonacci.style.display = "initial";
     let numero = campoNumero.value;
 
     if (numero.length == 0) {
@@ -24,8 +25,8 @@ function exibeRespostaSequenciaFibonacci(numero, fibonacci) {
 }
 
 function apagaRespostaSequenciaFibonacci() {
-    respostaSequenciaFibonacci.textContent = "";
     campoNumero.value = "";
+    respostaSequenciaFibonacci.style.display = "none";
 }
 
 let botaoCalcular = document.getElementById("botaoCalcular");

@@ -10,8 +10,10 @@ function calculaSequenciaFibonacci() {
 }
 
 function exibeRespostaSequenciaFibonacci(numero, fibonacci) {
-    
+    let respostaSequenciaFibonacci = document.getElementById("resposta");
+
+    respostaSequenciaFibonacci.textContent = numero + "! = " + fibonacci;
 }
 
-let botao = document.getElementById("botao");
+let botao = document.getElementById("botaoCalcular");
 botao.onclick = calculaSequenciaFibonacci;

@@ -1,6 +1,10 @@
 :root {
     --fonte-titulo: Tahoma, sans-serif;
     --fonte-texto: 'Gill Sans', sans-serif;
+
+    --espacamento-externo: 1.25rem;
+
+    --espacamento-interno-botoes: 0 0.625rem;
 }
 
 .principal__sequencia__fibonacci {
@@ -14,14 +18,14 @@
 }
 
 .principal__sequencia__fibonacci__texto {
-    margin-bottom: 20px;
+    margin-bottom: var(--espacamento-externo);
     font-family: var(--fonte-texto);
 }
 
 .principal__sequencia__fibonacci__botoes {
     display: flex;
-    gap: 0 10px;
-    margin-top: 20px;
+    gap: var(--espacamento-interno-botoes);
+    margin-top: var(--espacamento-externo);
 }
 
 .principal__sequencia__fibonacci__resposta {

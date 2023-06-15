@@ -26,6 +26,7 @@ body {
 
 .principal {
     background-color: var(--principal-cor-fundo);
+    border-radius: var(--borda-arredondamento);
     margin: auto;
     width: 80%;
 }
@@ -76,8 +77,10 @@ body {
 .principal__sequencia__fibonacci__imagem {
     width: 30%;
     margin: var(--espacamento-externo);
+    border-radius: var(--borda-arredondamento);
 }
 
 .principal__sequencia__fibonacci__video {
     margin: var(--espacamento-externo);
+    border-radius: var(--borda-arredondamento);
 }

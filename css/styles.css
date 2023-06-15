@@ -2,6 +2,8 @@
     --body-cor-fundo: #DCDCDC;
     --principal-cor-fundo: #FFFFF0;
     --link-cor: #FF8C00;
+    --botao-cor: #FF4500;
+    --botao-texto-cor: #FFFFFF;
 
     --fonte-titulo: Tahoma, sans-serif;
     --fonte-texto: 'Gill Sans', sans-serif;
@@ -69,10 +71,15 @@ body {
 }
 
 .principal__sequencia__fibonacci__botoes__botao {
+    background-color: var(--botao-cor);
+    border-radius: var(--borda-arredondamento);
+    border: none;
     padding: var(--espacamento-interno-botao);
     font-family: var(--fonte-botao);
     font-size: var(--fonte-tamanho-botao);
     font-weight: bolder;
+    cursor: pointer;
+    color: var(--botao-texto-cor);
 }
 
 .principal__sequencia__fibonacci__resposta {

@@ -105,17 +105,25 @@ body {
 }
 
 @media (max-width: 700px) {
+    body {
+        padding: 10px 0;
+    }
+
+    .principal {
+        width: 90vw;
+    }
+    
     .principal__sequencia__fibonacci {
         padding: 0.9375rem;
     }
 
     .principal__sequencia__fibonacci__titulo {
-        font-size: 1.0625rem;
+        font-size: 1.5625rem;
     }
 
     .principal__sequencia__fibonacci__texto,
     .principal__sequencia__fibonacci__erro {
-        font-size: 0.6875rem;
+        font-size: 0.875rem;
     }
 
     .principal__sequencia__fibonacci__entrada {

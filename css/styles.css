@@ -34,8 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
-    padding: 20px 0;
+    padding: 30px;
 }
 
 .principal__sequencia__fibonacci__titulo {

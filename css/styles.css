@@ -1,4 +1,6 @@
 :root {
+    --body-cor-fundo: #DCDCDC;
+
     --fonte-titulo: Tahoma, sans-serif;
     --fonte-texto: 'Gill Sans', sans-serif;
     --fonte-entrada: georgia, serif;
@@ -12,6 +14,12 @@
     --espacamento-interno-entrada: 0.5rem 0.75rem;
 
     --espacamento-interno-botoes: 0 0.625rem;
+
+    --borda-arredondamento: 0.3125rem;
+}
+
+body {
+    background-color: var(--body-cor-fundo);
 }
 
 .principal__sequencia__fibonacci {
@@ -35,6 +43,8 @@
     font-family: var(--fonte-entrada);
     font-size: var(--fonte-tamanho-entrada);
     padding: var(--espacamento-interno-entrada);
+    border-style: solid;
+    border-radius: var(--borda-arredondamento);
 }
 
 .principal__sequencia__fibonacci__botoes {

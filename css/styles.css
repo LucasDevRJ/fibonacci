@@ -94,7 +94,7 @@ body {
 }
 
 .principal__sequencia__fibonacci__imagem {
-    width: 30%;
+    width: 40%;
     margin: var(--espacamento-externo);
     border-radius: var(--borda-arredondamento);
 }
@@ -104,7 +104,7 @@ body {
     border-radius: var(--borda-arredondamento);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .principal__sequencia__fibonacci {
         padding: 0.9375rem;
     }
@@ -129,11 +129,10 @@ body {
     }
 
     .principal__sequencia__fibonacci__imagem {
-        width: 70%;
+        width: 50vw;
     }
 
     .principal__sequencia__fibonacci__video {
-        height: 40vh;
-        width: 100%;
+        width: 60vw;
     }
 }

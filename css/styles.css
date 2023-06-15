@@ -113,4 +113,9 @@ body {
     .principal__sequencia__fibonacci__texto {
         font-size: 0.8125rem;
     }
+
+    .principal__sequencia__fibonacci__entrada {
+        font-size: 0.75rem;
+        padding: 0.4375rem 0.75rem;
+    }
 }

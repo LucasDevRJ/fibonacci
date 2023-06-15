@@ -1,5 +1,6 @@
 :root {
-    --body-cor-fundo: #DCDCDC;
+    --body-imagem-fundo: url("../images/plano-fundo.jpg");
+
     --principal-cor-fundo: #FFFFF0;
     --link-cor: #FF8C00;
     --botao-cor: #FF4500;
@@ -25,7 +26,7 @@
 }
 
 body {
-    background-color: var(--body-cor-fundo);
+    background-image: var(--body-imagem-fundo);
 }
 
 .principal {

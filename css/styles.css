@@ -1,6 +1,7 @@
 :root {
     --body-cor-fundo: #DCDCDC;
     --principal-cor-fundo: #FFFFF0;
+    --link-cor: #FF8C00;
 
     --fonte-titulo: Tahoma, sans-serif;
     --fonte-texto: 'Gill Sans', sans-serif;
@@ -47,6 +48,10 @@ body {
     margin-bottom: var(--espacamento-externo);
     font-family: var(--fonte-texto);
     font-size: var(--fonte-tamanho-texto);
+}
+
+.principal__sequencia__fibonacci__texto__link {
+    color: var(--link-cor);
 }
 
 .principal__sequencia__fibonacci__entrada {

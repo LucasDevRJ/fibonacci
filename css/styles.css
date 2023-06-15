@@ -75,4 +75,9 @@ body {
 
 .principal__sequencia__fibonacci__imagem {
     width: 30%;
+    margin: var(--espacamento-externo);
+}
+
+.principal__sequencia__fibonacci__video {
+    margin: var(--espacamento-externo);
 }

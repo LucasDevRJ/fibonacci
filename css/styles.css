@@ -1,5 +1,6 @@
 :root {
     --body-cor-fundo: #DCDCDC;
+    --principal-cor-fundo: #FFFFF0;
 
     --fonte-titulo: Tahoma, sans-serif;
     --fonte-texto: 'Gill Sans', sans-serif;
@@ -22,10 +23,17 @@ body {
     background-color: var(--body-cor-fundo);
 }
 
+.principal {
+    background-color: var(--principal-cor-fundo);
+    margin: auto;
+    width: 80%;
+}
+
 .principal__sequencia__fibonacci {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 90vh;
 }
 
 .principal__sequencia__fibonacci__titulo {

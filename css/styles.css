@@ -34,7 +34,6 @@ body {
     background-color: var(--principal-cor-fundo);
     border-radius: var(--borda-arredondamento);
     margin: auto;
-    
     width: 80%;
 }
 
@@ -106,13 +105,17 @@ body {
 }
 
 @media (max-width: 500px) {
+    .principal__sequencia__fibonacci {
+        padding: 0.9375rem;
+    }
+
     .principal__sequencia__fibonacci__titulo {
-        font-size: 1.6875rem;
+        font-size: 1.0625rem;
     }
 
     .principal__sequencia__fibonacci__texto,
     .principal__sequencia__fibonacci__erro {
-        font-size: 0.8125rem;
+        font-size: 0.6875rem;
     }
 
     .principal__sequencia__fibonacci__entrada {
@@ -123,5 +126,14 @@ body {
     .principal__sequencia__fibonacci__botoes__botao {
         font-size: 12px;
         padding: 8px 16px;
+    }
+
+    .principal__sequencia__fibonacci__imagem {
+        width: 70%;
+    }
+
+    .principal__sequencia__fibonacci__video {
+        height: 40vh;
+        width: 100%;
     }
 }

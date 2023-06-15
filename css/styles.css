@@ -17,6 +17,7 @@
 
     --espacamento-externo: 1.25rem;
     --espacamento-interno-entrada: 0.5rem 0.75rem;
+    --espacamento-interno-principal: 1.875rem;
     --espacamento-interno-botoes: 0 0.625rem;
     --espacamento-interno-botao: 0.625rem 1.25rem;
 
@@ -38,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: var(--espacamento-interno-principal);
 }
 
 .principal__sequencia__fibonacci__titulo {
@@ -50,6 +51,10 @@ body {
     margin-bottom: var(--espacamento-externo);
     font-family: var(--fonte-texto);
     font-size: var(--fonte-tamanho-texto);
+}
+
+.principal__sequencia__fibonacci__erro {
+    color: #FF0000;
 }
 
 .principal__sequencia__fibonacci__texto__link {

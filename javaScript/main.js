@@ -5,6 +5,8 @@ function calculaSequenciaFibonacci() {
     respostaSequenciaFibonacci.style.display = "initial";
     let numero = campoNumero.value;
 
+    respostaSequenciaFibonacci.classList.add("principal__sequencia__fibonacci__erro");
+
     if (numero.length == 0) {
         respostaSequenciaFibonacci.textContent = "Digite algum número positivo!";
     } else if (isNaN(numero)) {
@@ -16,6 +18,7 @@ function calculaSequenciaFibonacci() {
         for (let i = numero - 1; i >= 1; i--) {
             fibonacci = fibonacci * i;
         }
+        respostaSequenciaFibonacci.classList.remove("principal__sequencia__fibonacci__erro");
         exibeRespostaSequenciaFibonacci(numero, fibonacci);
     }
 }

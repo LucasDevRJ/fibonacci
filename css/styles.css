@@ -27,12 +27,14 @@
 
 body {
     background-image: var(--body-imagem-fundo);
+    padding: 3.75rem 0;
 }
 
 .principal {
     background-color: var(--principal-cor-fundo);
     border-radius: var(--borda-arredondamento);
     margin: auto;
+    
     width: 80%;
 }
 
@@ -101,4 +103,14 @@ body {
 .principal__sequencia__fibonacci__video {
     margin: var(--espacamento-externo);
     border-radius: var(--borda-arredondamento);
+}
+
+@media (max-width: 500px) {
+    .principal__sequencia__fibonacci__titulo {
+        font-size: 1.6875rem;
+    }
+
+    .principal__sequencia__fibonacci__texto {
+        font-size: 0.8125rem;
+    }
 }

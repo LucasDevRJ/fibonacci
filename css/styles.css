@@ -17,7 +17,7 @@
     --fonte-tamanho-botao: 1.25rem;
 
     --espacamento-externo: 1.25rem;
-    --espacamento-interno-entrada: 0.5rem 0.75rem;
+    --espacamento-interno-entrada: 0.9375rem 0.75rem;
     --espacamento-interno-principal: 1.875rem;
     --espacamento-interno-botoes: 0 0.625rem;
     --espacamento-interno-botao: 1.0625rem 1.5rem;
@@ -69,6 +69,7 @@ body {
     padding: var(--espacamento-interno-entrada);
     border-style: solid;
     border-radius: var(--borda-arredondamento);
+    width: 25%;
 }
 
 .principal__sequencia__fibonacci__botoes {

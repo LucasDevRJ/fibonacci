@@ -14,13 +14,13 @@
     --fonte-tamanho-titulo: 2.5rem;
     --fonte-tamanho-texto: 1.25rem;
     --fonte-tamanho-entrada: 1rem;
-    --fonte-tamanho-botao: 0.875rem;
+    --fonte-tamanho-botao: 1.25rem;
 
     --espacamento-externo: 1.25rem;
     --espacamento-interno-entrada: 0.5rem 0.75rem;
     --espacamento-interno-principal: 1.875rem;
     --espacamento-interno-botoes: 0 0.625rem;
-    --espacamento-interno-botao: 0.625rem 1.25rem;
+    --espacamento-interno-botao: 1.0625rem 1.5rem;
 
     --borda-arredondamento: 0.3125rem;
 }
